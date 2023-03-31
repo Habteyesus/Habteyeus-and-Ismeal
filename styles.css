@@ -1,0 +1,32 @@
+.form-wrapper {
+    width: 640px;
+    margin: 0 auto;
+    background-color: #242444;
+  }
+  body {
+    background-image: linear-gradient(
+        115deg,
+        rgba(58, 58, 158, 0.8),
+        rgba(136, 136, 206, 0.7)
+      ),
+      url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background: var(--color-darkblue); */
+  }
+  header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  header h1 {
+    margin-top: 40px;
+  }
+  .form-group {
+    margin: 0 40px 0 40px;
+  }
+  .lab {
+    margin-top: 40px;
+    /* background-color: blue; */
+  }
