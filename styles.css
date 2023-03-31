@@ -1,4 +1,4 @@
-.form-wrapper {
+#survey-form{
     width: 640px;
     margin: 0 auto;
     background-color: #242444;
@@ -21,8 +21,11 @@
     text-align: center;
     margin-bottom: 40px;
   }
-  header h1 {
+  #title {
     margin-top: 40px;
+  }
+  #description{
+    font-size: 30px;
   }
   .form-group {
     margin: 0 40px 0 40px;

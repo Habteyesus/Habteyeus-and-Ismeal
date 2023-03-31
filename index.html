@@ -10,39 +10,43 @@
   </head>
   <body>
     <header>
-      <h1>freeCodeCamp Survey Form</h1>
-      <h3>Thank you for taking the time to help us improve the platform</h3>
+      <h1 id="title">freeCodeCamp Survey Form</h1>
+      <p id="description">Thank you for taking the time to help us improve the platform</p>
     </header>
     <section>
-      <form action="" class="form-wrapper">
-        <div class="form-group">
-          <label id="name-lable" for="name" class="lab">Name</label><br />
-          <input
-            type="text"
-            name="name"
-            id="name"
-            placeholder="Enter your name"
-            class="form-contole"
+      <form action="" id="survey-form">
+        <div class="form-group"> 
+          <label id="name-label" for="name" class="lab">Name</label><br />
+          <input type="text" 
+          name="name" 
+          id="name"
+          placeholder="Enter your name" 
+          class="form-contole" 
+          required
           />
         </div>
         <div class="form-group" class="lab">
-          <label id="email-lable" for="email" class="lab">Email</label><br />
+          <label id="email-label" for="email" class="lab">Email</label><br />
           <input
             type="email"
             name="email"
             id="email"
             placeholder="Enter your Email"
             class="form-contole"
+            required
           />
         </div>
         <div class="form-group">
-          <label id="number-lable" for="age" class="lab">Age</label><br />
+          <label id="number-label" for="age" class="lab">Age</label><br />
           <input
             type="number"
             name="age"
-            id="age"
+            id="number"
             placeholder="Age"
             class="form-contole"
+            min="14"
+            max="99"
+            required
           />
         </div>
         <div class="form-group" >
@@ -80,19 +84,19 @@
         </div>
         <div class="form-group">
           <p>What would you like to see improved? (Check all that apply)</p>
-          <div><input type="checkbox" name="" id="" />Front-end Projects</div>
-          <div><input type="checkbox" name="" id="" />Back-end Projects</div>
-          <div><input type="checkbox" name="" id="" />Data Visualization</div>
-          <div><input type="checkbox" name="" id="" />Challenges</div>
+          <input type="checkbox" name="" id="" value="Project"/>Front-end Projects
+          <input type="checkbox" name="" id="" value="BackEnc"/>Back-end Projects
+          <input type="checkbox" name="" id="" value="Data"/>Data Visualization
+          <input type="checkbox" name="" id="" value="Challenges"/>Challenges
           <div>
             <input type="checkbox" name="" id="" />Open Source Community
           </div>
-          <div><input type="checkbox" name="" id="" />Gitter help rooms</div>
-          <div><input type="checkbox" name="" id="" />Videos</div>
-          <div><input type="checkbox" name="" id="" />City Meetups</div>
-          <div><input type="checkbox" name="" id="" />Wiki</div>
-          <div><input type="checkbox" name="" id="" />Forum</div>
-          <div><input type="checkbox" name="" id="" />Additional Courses</div>
+          <div><input type="checkbox" name="" id="" value="Gitter"/>Gitter help rooms</div>
+          <div><input type="checkbox" name="" id="" value="Vides"/>Videos</div>
+          <div><input type="checkbox" name="" id="" value="City"/>City Meetups</div>
+          <div><input type="checkbox" name="" id="" value="Wiki"/>Wiki</div>
+          <div><input type="checkbox" name="" id="" value="Forum"/>Forum</div>
+          <div><input type="checkbox" name="" id="" value="Additional"/>Additional Courses</div>
         </div>
         <div class="form-group">
           <p>Any comments or suggestions?</p>
