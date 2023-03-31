@@ -1,50 +1,3 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="styles.css" >
-  <link rel="stylesheet" href="styles2.css" >
-</head>
-<body>
-  <header>
-    <h1 id="title">TITLE</h1>
-    <p id="description">DESCRIPTION</p>
-  </header>
-  
-  <div id="survey-form">
-    <div class="input-wrapper">
-      <label id="name-label"  >NAME LABEL</label><br>
-      <input type="text" id="name" placeholder="name" required><br>
-      <label id="email-label">EMAIL LABEL</label><br>
-      <input type="email" id="email" placeholder="email" required><br>
-      <label id="number-label">NUMBER LABEL</label><br>
-      <input type="number" id="number" max="100" min="16" placeholder="age" required><br>
-    </div>
-    
-  <select id="dropdown">
-    <option value="option1">OPTION1</option>
-    <option value="option2">OPTION2</option>
-  </select><br>
-  <div>
-    <input type="radio"  name="radio-group-1">radio option1 <br>
-    <input type="radio"  name="radio-group-1">radio option2
-  </div><br>
-  <div>
-    <input type="checkbox" value="">check1<br>
-    <input type="checkbox" value="">check2<br>
-    <input type="checkbox" value="">check3<br>
-    <input type="checkbox" value="">check4<br>
-    <input type="checkbox" value="">check5<br>
-  </div><br>
-
-  <textarea id="textarea"></textarea><br>
-  <button id="submit">SUBMIT</button>
-</div>
-</body>
-</html> -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -107,13 +60,13 @@
           <p>Would you recommend freeCodeCamp to a friend?</p>
           <input
             type="radio"
-            name=""
+            name="recomend-check"
             id=""
             value="Definitely"
             checked
           />Definitely <br />
-          <input type="radio" name="" id="" value="Maybe" />Maybe <br />
-          <input type="radio" name="" id="" value="Not sure" />Not sure
+          <input type="radio" name="recomend-check" id="" value="Maybe" />Maybe <br />
+          <input type="radio" name="recomend-check" id="" value="Not sure" />Not sure
         </div>
         <div class="form-group">
           <p>What is your favorite feature of freeCodeCamp?</p>
@@ -152,7 +105,7 @@
           ></textarea>
         </div>
         <div class="form-group">
-          <button type="submit" class="btn">submit</button>
+          <button type="submit" class="btn" id="submit">submit</button>
         </div>
       </form>
     </section>
